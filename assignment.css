@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+header{
+    position: fixed;
+    width: 100%;
+    border: 2px ;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    background-color:white
+}
+
+header h3{
+    background-color: rgb(41, 143, 41);
+    height: 60px;
+    color: whitesmoke;
+    padding-left: 40px;
+    padding-top: 20px; 
+}
+header h3 button{
+    background-color: white;
+    border-radius: 50px;
+    color:black;
+    height: 40px;
+    width: 130px;
+}
+img
+{
+    width: 40px;
+    height: 60px;
+    margin-left: 20px;
+}
+a{
+    margin-right: 30px;
+    padding-top: 20px;
+    height: 40px;
+}
+span{
+    margin-left: 130px;
+    padding: 30px;
+}
+
+button{
+    background-color: green;
+    color: whitesmoke;  
+    height: 30px;
+    outline-width: 2cap;
+}
+
+#query{
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.img{
+    width: 100%;
+    height: 240px;
+    background-image: url(imgagesloop/image8.jpg);
+    background-size: 100% 100%;
+    animation: changeimage 20s linear infinite;
+}
+@keyframes changeimage {
+    10%{
+        background-image: url(imgagesloop/image2.jpg);
+    }
+    35%{
+        background-image: url(imgagesloop/image3.jpg);
+    }
+    60%{
+        background-image: url(imgagesloop/image4.jpg);
+    }
+    85%{
+        background-image: url(imgagesloop/image5.jpg);
+    }
+}
+
+.div {
+    margin-top: 300px;
+   font-style: normal;
+   text-align: center;
+   color: black;
+}
+
+.contain{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px;
+    margin: 90px;
+    box-sizing: border-box;
+} 
+.contain img{
+    height: 300px;
+    width: 250px;
+    border: 3px solid;
+    border-color: orange;
+}
+ h1{
+margin-top: 140px;
+   font-style: normal;
+   text-align: center;
+   color: black;   
+}
+
+.krish h1{
+    margin-top: 250px;
+}
+.sil{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.boxe{
+    height: 100px;
+    width: 150px;
+    border: 3px;
+    margin: 130px;
+    box-sizing: border-box;
+}
+.sil img{
+    height: 300px;
+    width: 250px;
+    border-radius: 1px;
+}
+
+.gold{
+    height: auto;
+    width: 70%;
+    display: flex;
+}
+.bot{
+    height: 50px;
+    width: 50px;
+    border: 3px;
+    margin: 70px;
+    box-sizing: border-box;
+}
+.gold img{
+    height: 250px;
+    width: 170px;
+    border: 3px solid;
+    border-color: orange;
+}
+.sanju h1{
+    background-color: white;
+    border-bottom: 40px; 
+    border: 15px solid;
+    border-color: rgb(29, 96, 29);
+    color: rgb(29, 96, 29);  
+    margin-top: 180px;
+}
+ .sham{
+    height: auto;
+    width: 25%;
+    display: flex;
+    margin: 40px;
+    border: 10px solid;
+    align-items: center;
+    border-color: rgb(80, 59, 19);
+} 
+
+.diamond{
+    height: auto;
+    width: 70%;
+    display: flex;
+}
+.opal{
+    height: 50px;
+    width: 50px;
+    border: 3px;
+    margin: auto;
+    margin-bottom: 300px;
+    box-sizing: border-box;
+}
+
+.diamond img{
+    height: 250px;
+    width: 250px;
+    border: 3px solid;
+    border-color: orange;
+}
+
+/* Style for the footer */
+.footer {
+    background-color: white;
+    color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Style for the divs within the footer */
+  .footer div {
+    display: inline-block;
+    color: black;
+    width: auto; /* Adjust width as needed */
+    margin: 40px; /* Adjust margin as needed */
+  }
+
+  /* Additional style for the divs below */
+  .footer .below {
+    display: inline-block;
+    width: 30%; /* Adjust width as needed */
+    margin: 1px; /* Adjust margin as needed */
+  }
+
+  .f1 img{
+    height: 225px;
+    width: 230px;
+  }
+
+  .f2 a p{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+
+  }
+  .f3{
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .below img{
+    width: 300px;
+    height: 190px;
+  }
+
+   .below img{
+    margin-left: -400px;
+    width: 1100px;
+    height: 100px;
+   }
